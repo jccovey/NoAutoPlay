@@ -1,0 +1,15 @@
+{
+  "name" : "No AutoPlay",
+  "version" : "1.0.0",
+  "description" : "Catches any video elements and removes the autoplay attribute, because YouTube abuses it.",
+  "permissions" : [],
+  "content_scripts" : [
+    {
+      "matches" : [ "http://*.youtube.com/*", "https://*.youtu.be/*"],
+      "js" : [ "contentscript.js" ],
+      "run_at" : "document_idle",
+      "all_frames" : false
+    }
+  ],
+  "manifest_version": 2
+}
