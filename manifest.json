@@ -1,7 +1,7 @@
 {
   "name" : "No AutoPlay",
   "version" : "1.0.0",
-  "description" : "Catches any video elements and removes the autoplay attribute, because YouTube abuses it.",
+  "description" : "Pauses any HTML5 videos that would autoplay. Click to play the video when you want to watch it, not when you open the browser tab.",
   "permissions" : [],
   "content_scripts" : [
     {
