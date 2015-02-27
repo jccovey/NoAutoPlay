@@ -5,7 +5,7 @@
   "permissions" : [],
   "content_scripts" : [
     {
-      "matches" : [ "http://*.youtube.com/*", "https://*.youtu.be/*"],
+      "matches" : [ "http://*.youtube.com/*", "https://*.youtube.com/*", "http://*.youtu.be/*", "https://*.youtu.be/*"],
       "js" : [ "contentscript.js" ],
       "run_at" : "document_idle",
       "all_frames" : false
